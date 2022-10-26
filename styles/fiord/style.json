@@ -16,7 +16,7 @@
       "id": "background",
       "type": "background",
       "layout": {"visibility": "visible"},
-      "paint": {"background-color": "#45516E"}
+      "paint": {"background-color": "rgba(52, 62, 84, 1)"}
     },
     {
       "id": "water",
