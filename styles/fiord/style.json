@@ -1,9 +1,7 @@
 {
   "version": 8,
   "name": "Fiord Color",
-  "metadata": {
-    "openmaptiles:version": "3.x"
-  },
+  "metadata": {"openmaptiles:version": "3.x", "maputnik:renderer": "mbgljs"},
   "sources": {
     "openmaptiles": {
       "type": "vector",
@@ -67,7 +65,7 @@
       "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(33, 34, 47, 0.57)",
+        "fill-color": "rgba(64, 64, 65, 0.57)",
         "fill-opacity": {"base": 1, "stops": [[9, 0], [12, 1]]}
       }
     },
