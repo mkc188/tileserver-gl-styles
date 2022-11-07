@@ -65,7 +65,7 @@
       "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(64, 64, 65, 0.57)",
+        "fill-color": "rgba(91, 91, 96, 0.57)",
         "fill-opacity": {"base": 1, "stops": [[9, 0], [12, 1]]}
       }
     },
